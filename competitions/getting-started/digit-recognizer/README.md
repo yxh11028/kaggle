@@ -16,6 +16,30 @@
 | 负责人: svm | [马小穆](https://github.com/maxiaomu) | [svm项目文档](/competitions/getting-started/digit-recognizer/svm算法描述.md) | [svm项目代码](/src/python/getting-started/digit-recognizer/svm-python3.6.py) |
 | 负责人: cnn | [==](https://github.com/xiaomingnio) | [cnn项目文档](/competitions/getting-started/digit-recognizer/cnn算法描述.md) | [cnn项目代码](/src/python/getting-started/digit-recognizer/keras_cnn-python3.6.py) |
 
+> 数字识别 第一期(2018-04-18)
+
+* http://community.apachecn.org/?/question/136
+
+| 组长 | 组员 | 组员 | 组员 | 组员 | 组员 |
+| -- | -- | -- | -- | -- | -- | -- |
+|[限定心态](https://github.com/island99)|[strengthen](https://github.com/Yestrengthen)|[VS53MV](https://github.com/La-fe)|[不会修电脑](https://github.com/smallsmallwood)|[远心](https://github.com/SwordFaith)|[小耀哥_0011](https://github.com/yirenrumeng)|[丨](https://github.com/nincro)|
+
+> 数字识别 第二期(2018-04-21)
+
+* http://community.apachecn.org/?/question/142
+
+| 组长 | 组员 | 组员 | 组员 | 组员 | 组员 |
+| -- | -- | -- | -- | -- | -- | 
+|[凌少skier](https://github.com/skierlin)|[Blue]|[Max]|[考拉]|[Happyorg]|[过客]|
+
+> 数字识别 第三期(2018-05-03)
+
+* http://community.apachecn.org/?/question/153
+
+| 负责人 | 组员 | 
+| -- | -- | 
+|[技术负责人-诺木人](https://github.com/1mrliu)<br/>辅助负责人-平淡的心<br/>辅助负责人-张凯<br/>[活动发起人-片刻](https://github.com/jiangzhonglian)| [ifeng](https://github.com/ifeng2025)<br/>[draw](https://github.com/)<br/>[Faith](https://github.com/77qingliu)<br/>[ggggggggo](https://github.com/)<br/>[嘿！漆漆](https://github.com/77const)<br/>[kickfilper](https://github.com/yongfegnyan)<br/>[Lucien Chen](https://github.com/hubeihubei)<br/>[L~Q~W](https://github.com/)<br/>[琴剑蓝天](https://github.com/xvjie)<br/>[時間ｄāń漠](https://github.com/)<br/>[歲寒✅已认证](https://github.com/)<br/>[給力小青年](https://github.com/XCWDSG)<br/>[星尘](https://github.com/wilderchen)<br/>[瑛瑛wang](https://github.com/)<br/>[有一个人很酷](https://github.com/)<br/>[静水流深](https://github.com/)<br/>[♡稳稳的幸福](https://github.com/patrickwangqy)<br/>[Verestràsz](https://github.com/soarchorale)<br/>[vslyu](https://github.com/)<br/>[:)](https://github.com/)<br/>[菠菜](https://github.com/wpbshine)<br/>[QQ小冰](https://github.com/Luyu-Liam)<br/>[浅紫色](https://github.com/MarkerGo)<br/>[R](https://github.com/rjdCS)<br/>[ ROOT](https://github.com/zch765536121) |
+
 ## 开发流程（knn项目案例）
 
 > 收集数据: 提供文本文件(目标变量+数据特征)

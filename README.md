@@ -1,12 +1,11 @@
 # Kaggle
 
-![](static/images/logos/kaggle-logo-gray-bigger.jpeg)
+![](static/images/logos/kaggle-logo-gray-bigger.jpeg) 
 
 > **欢迎任何人参与和完善：一个人可以走的很快，但是一群人却可以走的更远**
-
 * <strong>ApacheCN - Kaggle组队群【686932392】<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=716b584bbd7cdf64e961b499c7fb5891faf1f6c92dad026e3c596a57c834f1ec"><img title="ApacheCN - Kaggle组队群【686932392】" src="http://www.apachecn.org/wp-content/uploads/2017/10/ApacheCN-group.png" alt="ApacheCN - Kaggle组队群【686932392】" /></a></strong></li>
 * [Kaggle](https://www.kaggle.com) 是一个流行的数据科学竞赛平台。
-* [GitHub 入门操作指南](docs/github-quickstart.md) 和 [Kaggle 入门操作指南](docs/kaggle-quickstart.md)，适合于学习过 [MachineLearning(机器学习实战)](https://github.com/apachecn/MachineLearning) 的小盆友
+* [GitHub 入门操作指南](docs/GitHub/README.md) 和 [Kaggle 入门操作指南](docs/kaggle-quickstart.md)，适合于学习过 [MachineLearning(机器学习实战)](https://github.com/apachecn/MachineLearning) 的小盆友
 * Kaggle 已被 Google 收购，请参阅[《谷歌收购 Kaggle 为什么会震动三界（AI、机器学习、数据科学界）》](https://www.leiphone.com/news/201703/ZjpnddCoUDr3Eh8c.html)
 
 > Note:
@@ -33,7 +32,6 @@
 * [**数字识别**](/competitions/getting-started/digit-recognizer)
 * [**泰坦尼克**](/competitions/getting-started/titanic)
 * [**房价预测**](/competitions/getting-started/house-price)
-* [**Mercari 价格推荐挑战**](/competitions/getting-started/mercari-price-suggestion-challenge)
 
 > [第3部分：训练场 Playground](https://www.kaggle.com/competitions?sortBy=deadline&group=all&page=1&pageSize=20&segment=playground)
 
@@ -50,6 +48,8 @@
 > [第6部分： 大型组织比赛(大奖金) Featured](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20&segment=featured)
 
 `推荐比赛 Featured` 是瞄准商业问题带有奖金的公开竞赛。如果有幸赢得比赛，不但可以获得奖金，模型也可能会被竞赛赞助商应用到商业实践中呢。
+
+* [**Mercari 价格推荐挑战**](/competitions/featured/mercari-price-suggestion-challenge)
 
 ## 其他部分
 
@@ -82,8 +82,8 @@
 > 数据预处理
 
 * 数据清洗
-    * 去掉样本数据中的垃圾
-    * 取出缺失大量数据的特征
+    * 去掉样本数据的异常数据。（比如连续型数据中的离群点）
+    * 去除缺失大量特征的数据
 * 数据采样
     * 下/上采样（假设正负样本比例1:100，把正样本的数量重复100次，这就叫上采样，也就是把比例小的样本放大。下采样同理，把比例大的数据抽取一部分，从而使比例变得接近于1；1）
     * 保证样本均衡
@@ -139,9 +139,8 @@
 
 | 深度学习 | 机器学习  | 大数据 | 运维工具 |
 | --- | --- | --- | --- |
-| [TensorFlow R1.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030122) | [Sklearn 0.19 中文文档](http://sklearn.apachecn.org/) | [Spark 2.2.0和2.0.2 中文文档](http://spark.apachecn.org/) | [Zeppelin 0.7.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030467) |
-| pytorch 计划中 | [机器学习实战-教学版](https://github.com/apachecn/MachineLearning) | [Storm 1.1.0和1.0.1 中文文档](http://storm.apachecn.org/) | [Kibana 5.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=8159377) |
-|  |  | [Kudu 1.4.0 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10813594) |  |
-|  |  | [Elasticsearch 5.4 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=4260364) |
+| [TensorFlow R1.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030122) | [机器学习实战-教学](https://github.com/apachecn/MachineLearning) | [Spark 2.2.0和2.0.2 中文文档](http://spark.apachecn.org/) | [Zeppelin 0.7.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030467) |
+| [Pytorch 0.3 中文文档 ](http://pytorch.apachecn.org/cn/0.3.0/) | [Sklearn 0.19 中文文档](http://sklearn.apachecn.org/) | [Storm 1.1.0和1.0.1 中文文档](http://storm.apachecn.org/) | [Kibana 5.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=8159377) |
+|  | [LightGBM 中文文档](http://lightgbm.apachecn.org/cn/latest) | [Kudu 1.4.0 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10813594) |  |
+|  | [XGBoost 中文文档](http://xgboost.apachecn.org/cn/latest)  | [Elasticsearch 5.4 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=4260364) |
 |  |  | [Beam 中文文档](http://beam.apachecn.org/) |
-
